@@ -1,5 +1,12 @@
-# Django Student Management System 
-This is a Simple Student Management System 
+# Student Management System 
+This is a Simple Student Management System, which allows the student, professor as well as the administration staff to perform CRUD operations
+
+## Motivation
+We felt that students don’t get much clarity and ease while obtaining their marks and results in various subjects and for teachers it gets especially difficult to manage so many subject marks and grades for hundreds of students. Due to this sometimes result gets delayed or even in some cases misplaced which affect both the students and the teachers.
+
+We thought to solve this problem by building a management system that will serve as a ecosystem for both the teachers and students, and provide various useful features by taking help of modern day technology.
+
+This will be a one stop solution for the teachers as well as the students, instead of maintaining and following the older norms of storing records in files, this will aim at automating it for the mutual benefit of both
 
 ## Features of this Project
 
@@ -29,79 +36,9 @@ This is a Simple Student Management System
 5. Send Feedback to HOD
 
 
-## How to Install and Run this project?
+## How to Run this project?
 
-### Pre-Requisites:
-1. Install Git Version Control
-[ https://git-scm.com/ ]
-
-2. Install Python Latest Version
-[ https://www.python.org/downloads/ ]
-
-3. Install Pip (Package Manager)
-[ https://pip.pypa.io/en/stable/installing/ ]
-
-*Alternative to Pip is Homebrew*
-
-### Installation
-**1. Create a Folder where you want to save the project**
-
-**2. Create a Virtual Environment and Activate**
-
-Install Virtual Environment First
-```
-$  pip install virtualenv
-```
-
-Create Virtual Environment
-
-For Windows
-```
-$  python -m venv venv
-```
-For Mac
-```
-$  python3 -m venv venv
-```
-
-Activate Virtual Environment
-
-For Windows
-```
-$  source venv/scripts/activate
-```
-
-For Mac
-```
-$  source venv/bin/activate
-```
-
-**3. Clone this project**
-```
-$  git clone https://github.com/vijaythapa333/django-student-management-system.git
-```
-
-Then, Enter the project
-```
-$  cd django-student-management-system
-```
-
-**4. Install Requirements from 'requirements.txt'**
-```python
-$  pip install -r requirements.txt
-```
-
-**5. Add the hosts**
-
-- Got to settings.py file 
-- Then, On allowed hosts, Add [‘*’]. 
-```python
-ALLOWED_HOSTS = ['*']
-```
-*No need to change on Mac.*
-
-
-**6. Now Run Server**
+**Run Server**
 
 Command for PC:
 ```python
@@ -113,7 +50,7 @@ Command for Mac:
 $ python3 manage.py runserver
 ```
 
-**7. Login Credentials**
+**Login Credentials**
 
 Create Super User (HOD)
 ```
