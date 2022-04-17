@@ -8,6 +8,15 @@ We thought to solve this problem by building a management system that will serve
 
 This will be a one stop solution for the teachers as well as the students, instead of maintaining and following the older norms of storing records in files, this will aim at automating it for the mutual benefit of both
 
+## Team Members
+| Name  | Roll No. |
+| ------------- | ------------- |
+| Mukul Shingwani | B20AI023 |
+| Sawan Patel  | B20CS063 |
+| Sanidhya S. Johri  | B20CS061 |
+| Jaimin Gajjar  | B20AI014 |
+| Shubham solanki  | B20AI040 |
+
 ## Features of this Project
 
 ### A. Admin Users Can
