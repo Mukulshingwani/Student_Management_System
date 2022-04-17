@@ -45,11 +45,6 @@ Command for PC:
 $ python manage.py runserver
 ```
 
-Command for Mac:
-```python
-$ python3 manage.py runserver
-```
-
 **Login Credentials**
 
 Create Super User (HOD)
